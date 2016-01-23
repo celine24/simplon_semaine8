@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Mon CV</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="conteneur">
+            <img src="img/people.jpg" alt="moi" class="header-img-identite" />
+            <div class="header-block-title">
+                <h1 class="header-title">Céline Peyrot</h1>
+                <h2 class="header-title">Intégrateur-Développeur Web</h2>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <main>
+        <div class="conteneur main-responsive">
+            <div class="main-col">
+                <h3 class="main-title">Parcours</h3>
+                <ul>
+                    <li>baccalauréat Littéraire (mention bien)</li>
+                    <li>licence de psychologie, option développement de l'enfant et de l'adolescent (mention passable)</li>
+                    <li>formation Intégrateur-Développeur Web EMWEB</li>
+                    <li>formation Intégrateur-Développeur Web SIMPLON</li>
+                </ul>
+            </div>
+            
+            <div class="main-col">
+                <h3 class="main-title">Ambitions</h3>
+                <ul>
+                    <li>étudier encore quelques temps afin de devenir un développeur-web compétent !</li>
+                    <li>intégrer une entreprise/agence web afin de gagner en expérience et d'être formée au travail en équipe</li>
+                    <li>à terme, monter ma propre entreprise de création de sites pour aider les commerces de proximité à se faire connaître et à se développer !</li>
+                </ul>
+            </div>
+             
+            <div class="main-col">
+                <h3 class="main-title">Expérience</h3>
+                <ul>
+                    <li>site client <a href="madouceparenthese.com">Ma Douce Parenthèse</a> réalisé en HTML/CSS/JQUERY (refonte en cours : ajout de CMS, laravel, SASS)</li>
+                    <li>projet collaboratif <a href="road-web.fr">Roadweb</a> (version 2 en cours : laravel, react js)</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="conteneur">
+            <div class="footer-grid">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45608.59862165928!2d-0.017416975188979705!3d44.40161677666498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd557f9aaa8c4dc7%3A0x40665174816e4e0!2sGrignols!5e0!3m2!1sfr!2sfr!4v1451498117862" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+                <address>
+                    <p>Céline Peyrot</p>
+                    <p>2 pehemat</p>
+                    <p>33690 Grignols</p>
+                </address>
+            </div>
+            <div class="formulaire">
+                <form method="POST" action="mailto:peyrot.celine@gmail.com">
+                    <fieldset>
+                        <legend>Me contacter</legend>
+                        <div class="formulaire-bloc">
+                            <div class="form-content">
+                                <label for="firstname">Prénom </label>
+                                <input type="text" id="firstname" class="name" />
+                                <label for="firstname">Nom </label>
+                                <input type="text" id="lastname" class="name" />
+                            </div>
+                            <div class="form-content">
+                                <label for="message">Message </label>
+                                <textarea id="message"></textarea>
+                            </div>
+                            <div class="form-submit">
+                                <label for="submit"> </label>
+                                <input type="submit" value="Envoyer" id="submit" class="submit" />
+                            </div>
+                        </div>
+                    </fieldset>
+                    
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
